@@ -8,21 +8,22 @@
 </head>
 <body>
 
-<header>
+<header class="site-header">
+  <div class="container>
   <h1>Cinta Schoorl</h1>
-  <p>GIS Student | ArcGIS | R | Python | Spatial Analysis</p>
-
-  <nav>
+  <p class="tagline">GIS Student | ArcGIS | R | Python | Spatial Analysis</p>
+  <nav class="nav-bar">
     <a href="index.html">Home</a>
     <a href="projects.html">Projects</a>
     <a href="mailto:you@email.com">Contact</a>
   </nav>
+ </div>
 </header>
 
-<main>
+<main class="container">
 
   <!-- About Me section -->
-  <section id="about">
+  <section id="about" class="section-card">
     <h2>About me</h2>
     <p>
       I am a GIS student with an interest in spatial analysis,
@@ -32,47 +33,52 @@
   </section>
 
   <!-- Eduction section -->
-  <section id="education">
+  <section id="education" class="section-card">
     <h2>Eduction</h2>
-    <ul>
-      <li><strong>Bachelor:</strong> Future Planet Studies, University of Amsterdam (2021-2025)</li>
-      <li><strong>Master:</strong> Geographical Information Management and Applications, (Joint-degree) University of Utrecht (2025-2027)</li>
-    </ul>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Bachelor</h3>
+        <p>Future Planet Studies, University of Amsterdam (2021-2025)</p>
+      </div>
+      <div class="card">
+        <h3>Master</h3>
+        <p>Geographical Information Management and Applications, Utrecht University (2025-2027)</p>
+      </div>
+    </div>
   </section>
 
   <!-- Experience Section -->
-  <section id="experience">
+  <section id="experience" class="section-card">
     <h2>Experience</h2>
-    <ul>
-      <li>
-        <strong>Current Job:</strong> Junior GIS Consultant at Energie Samen (2025-Present)  
-        <br>Focus on spatial data analysis, ArcGIS dashboards, and mapping solutions within the realm of renewable energy.
-      </li>
-    </ul>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Junior GIS Consultant</h3>
+        <p>Energie Samen (2025-Present)</p>
+        <p>Focused on spatial data analysis, ArcGIS dashboards, and web mapping solutions for renewable energy issues.</p>
+      </div>
+    </div>
   </section>
 
   <!-- Skills Section -->
-  <section id="skills">
+  <section id="skills" class="section-card">
     <h2>Skills & Tools</h2>
-    <ul>
-      <li>ArcGIS Pro / ArcGIS Online</li>
-      <li>QGIS</li>
-      <li>Python (geopandas, arcpy)</li>
-      <li>SQL & spatial databases</li>
-      <li>Web mapping & dashboards</li>
-      <li>Cartography & data visualization</li>
-    </ul>
+    <div class="skills-grid">
+      <span>ArcGIS Pro / ArcGIS Online</span>
+      <span>QGIS</span>
+      <span>Python (geopandas, arcpy)</span>
+      <span>SQL & Spatial Databases</span>
+      <span>Web Mapping & Dashboards</span>
+      <span>Cartography & Data Visualization</span>
+    </div>
   </section>
 
-  <section id="highlighted-project">
-    <h2>Highlighted project</h2>
-    <p>
-      Traffic Safety Dashboard – spatial analysis and visualization
-      using ArcGIS Pro and ArcGIS Online.
-    </p>
-    <a class="button" href="projects.html">View projects →</a>
-  </section>
-  
+  <!-- Highlighted Project -->
+    <section id="highlighted-project" class="section-card">
+      <h2>Highlighted Project</h2>
+      <p>Traffic Safety Dashboard – spatial analysis and visualization using ArcGIS Pro and ArcGIS Online.</p>
+      <a class="button" href="projects.html">View all projects →</a>
+    </section>
+
 </main>
 
 <footer>
